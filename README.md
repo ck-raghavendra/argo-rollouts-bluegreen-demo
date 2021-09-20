@@ -1,4 +1,4 @@
-# Canary deployment using Argo Rollouts
+# BlueGreen deployment using Argo Rollouts
 
 Repository demonstrates implementation of Canary deployment using Argo Rollouts
 
