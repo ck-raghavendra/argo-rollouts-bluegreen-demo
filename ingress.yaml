@@ -12,6 +12,7 @@ spec:
     http:
       paths:
       - path: /
-        backend:
+      pathType: ImplementationSpecific
+      backend:
           serviceName: rollouts-demo
           servicePort: 80
