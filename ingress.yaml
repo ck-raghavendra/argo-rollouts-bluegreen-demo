@@ -11,8 +11,8 @@ spec:
   - host: rollouts-demo.apps.argoproj.io
     http:
       paths:
-      - path: /
-      pathType: ImplementationSpecific
-      backend:
+  - backend:
           serviceName: rollouts-demo
           servicePort: 80
+      path: /
+      pathType: ImplementationSpecific
