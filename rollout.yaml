@@ -1,5 +1,5 @@
 ---
-apiVersion: argoproj.io/v1
+apiVersion: example/v1
 kind: Rollout
 metadata:
   name: rollouts-bluegreen-demo
