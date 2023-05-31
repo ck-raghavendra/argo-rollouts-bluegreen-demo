@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/proxy-body-size: "100m"
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/app-root: /
-    argocd.argoproj.io/skip-health-check
+    argocd.argoproj.io/skip-health-check: true
 spec:
   rules:
   - host: rollouts-demo.dev.argoproj.io
