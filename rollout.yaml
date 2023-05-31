@@ -5,6 +5,8 @@ metadata:
   name: rollouts-bluegreen-demo
   labels:
     app: rollouts-demo
+  annotations:
+     argocd.argoproj.io/skip-health-check
 spec:
   replicas: 6
         
