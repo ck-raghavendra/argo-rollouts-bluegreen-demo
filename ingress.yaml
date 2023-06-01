@@ -9,7 +9,7 @@ metadata:
     argocd.argoproj.io/skip-health-check: true
 spec:
   rules:
-  - host: rollouts-demo.dev.argoproj.io
+  - host: localhost
     http:
       paths:
       - path: /
